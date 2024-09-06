@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-12">
+  <div class="grid grid-cols-12 pb-20">
     <div class="col-span-12 md:col-span-3 min-h-12">
       <!-- profile component here -->
       <ProfileVue />

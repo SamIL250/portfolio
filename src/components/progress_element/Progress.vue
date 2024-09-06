@@ -1,5 +1,5 @@
-<template>
-  <div class="loader"></div>
+<template> 
+<div class="loader"></div>
 </template>
 
 <script>
@@ -8,70 +8,71 @@ export default {
 }
 </script>
 
-<style scoped>
-    /* From Uiverse.io by alexruix */ 
-    .loader {
-    position: relative;
-    width: 120px;
-    height: 90px;
-    margin: 0 auto;
-    }
+<style scoped> 
+ 
+.loader {
+  width: 28px;
+  height: 28px;
+  margin: auto;
+  position: relative;
+}
 
-    .loader:before {
-    content: "";
-    position: absolute;
-    bottom: 30px;
-    left: 50px;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background: #2a9d8f;
-    animation: loading-bounce 0.5s ease-in-out infinite alternate;
-    }
+.loader:before {
+  content: '';
+  width: 28px;
+  height: 5px;
+  background: #333;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  border-radius: 50%;
+  animation: shadow324 0.5s linear infinite;
+}
 
-    .loader:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 7px;
-    width: 45px;
-    border-radius: 4px;
-    box-shadow: 0 5px 0 #f2f2f2, -35px 50px 0 #f2f2f2, -70px 95px 0 #f2f2f2;
-    animation: loading-step 1s ease-in-out infinite;
-    }
+.loader:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  animation: jump7456 0.5s linear infinite;
+}
 
-    @keyframes loading-bounce {
-    0% {
-        transform: scale(1, 0.7);
-    }
+@keyframes jump7456 {
+  15% {
+    border-bottom-right-radius: 3px;
+  }
 
-    40% {
-        transform: scale(0.8, 1.2);
-    }
+  25% {
+    transform: translateY(9px) rotate(22.5deg);
+  }
 
-    60% {
-        transform: scale(1, 1);
-    }
+  50% {
+    transform: translateY(18px) scale(1, .9) rotate(45deg);
+    border-bottom-right-radius: 40px;
+  }
 
+  75% {
+    transform: translateY(9px) rotate(67.5deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+}
+
+@keyframes shadow324 {
+
+  0%,
     100% {
-        bottom: 140px;
-    }
-    }
+    transform: scale(1, 1);
+  }
 
-    @keyframes loading-step {
-    0% {
-        box-shadow: 0 10px 0 rgba(0, 0, 0, 0),
-                0 10px 0 #f2f2f2,
-                -35px 50px 0 #f2f2f2,
-                -70px 90px 0 #f2f2f2;
-    }
-
-    100% {
-        box-shadow: 0 10px 0 #f2f2f2,
-                -35px 50px 0 #f2f2f2,
-                -70px 90px 0 #f2f2f2,
-                -70px 90px 0 rgba(0, 0, 0, 0);
-    }
-    }
+  50% {
+    transform: scale(1.2, 1);
+  }
+}
 </style>

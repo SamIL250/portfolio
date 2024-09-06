@@ -9,7 +9,7 @@
             With over 3+ years id experience in crafting dynamic
             and engaging web applications.
         </p>
-        <div class="flex items-center justify-around">
+        <div class="flex items-center justify-start gap-5">
             <div class="border border-gray-600 flex items-center justify-center h-10 w-10 rounded-lg bg-gray-900  hover:bg-gray-950 hover:text-white hover:translate-y-2 hover:transition-transform cursor-pointer">
                 <i class="bi bi-linkedin text-xl"></i>
             </div>

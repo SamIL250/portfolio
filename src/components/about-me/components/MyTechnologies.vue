@@ -6,7 +6,7 @@
 
     <div>
         <marquee behavior="smooth" direction="left">
-            <div class="flex gap-5">
+            <div class="flex gap-4">
             </div>
         </marquee>
     </div>

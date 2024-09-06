@@ -2,7 +2,7 @@
     <div class="px-6">
         <div class="intro">
             <p class="text-4xl">Hello!</p>
-            <p class="text-4xl my-2">I'm Charlton</p>
+            <p class="text-4xl my-2">I'm Samuel</p>
         </div>
         <p class="text-justify text-sm my-5">
             <span>Software Developer</span>

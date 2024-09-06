@@ -1,11 +1,11 @@
 <template>
   <div class="grid grid-cols-12">
-    <div class="col-span-3 min-h-12 border-r">
+    <div class="col-span-3 min-h-12">
       <!-- profile component here -->
       <ProfileVue />
     </div>
-    <div class="col-span-4 min-h-12 border-r"></div>
-    <div class="col-span-5 min-h-12 border-l"></div>
+    <div class="col-span-4 min-h-12"> </div>
+    <div class="col-span-5 min-h-12"> </div>
   </div>
 </template>
 
@@ -24,6 +24,8 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style scoped>
+  .col-span-3, .col-span-4{
+    border-right: 1px solid #3a3a3a;
+  } 
+</style>  

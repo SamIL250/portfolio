@@ -8,7 +8,10 @@
       <!-- about me component here -->
       <AboutVue />
     </div>
-    <div class="col-span-12  md:col-span-5 min-h-12"> </div>
+    <div class="col-span-12  md:col-span-5 min-h-12">
+      <!-- my works component here -->
+      <WorksVue />
+    </div>
   </div>
 </template>
 
@@ -16,6 +19,7 @@
 // imports
 import ProfileVue from '@/components/profile/Profile.vue'
 import AboutVue from '@/components/about-me/About.vue'
+import WorksVue from '@/components/my-works/Works.vue'
 
 export default { 
   data() {
@@ -24,7 +28,8 @@ export default {
 
   components: {
     ProfileVue,
-    AboutVue
+    AboutVue,
+    WorksVue,
   }
 }
 </script>

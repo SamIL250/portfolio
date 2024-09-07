@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-10 px-10 py-2 shadow items-center">
+  <div class="flex gap-10 px-6 py-2 shadow items-center">
     <p class="logo">SN</p>
     <a href="">{{ work }}</a>
   </div>

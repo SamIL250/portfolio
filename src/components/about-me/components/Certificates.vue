@@ -6,7 +6,7 @@
     <p class="font-bold text-lg">Certificates</p>
   </div>
 
-  <div class="grid grid-cols md:grid-cols-2 px-9 gap-3">
+  <div class="grid grid-cols md:grid-cols-2 px-20 md:px-9 gap-3">
     <div class="border border-gray-800 rounded-lg p-5 shadow cursor-pointer hover:bg-gray-900 transition">
       <img src="../../../assets/sert.png" alt="" srcset="">
     </div>

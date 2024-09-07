@@ -8,9 +8,12 @@
       <!-- about me component here -->
       <AboutVue />
     </div>
-    <div class="col-span-12  md:col-span-5 min-h-12">
+    <div class="col-span-12  md:col-span-5 min-h-12 relative">
       <!-- my works component here -->
       <WorksVue />
+      <div class="absolute bottom-0 right-6">
+        <p>&copy; 2024 sam.dev</p>
+      </div>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex px-9 pt-10 md:py-4 gap-5 items-center font-bold text-lg shadow"> 
+    <div class="flex px-10 pt-10 md:py-4 gap-5 items-center font-bold text-lg shadow"> 
         <AboutMeAnimeVue />
         <p>About me</p>
     </div>

@@ -6,7 +6,7 @@
         </div>
         <p class="text-justify text-sm my-5">
             <span>Software Developer</span>
-            With over 3+ years id experience in crafting dynamic
+            With over 3+ years of experience in crafting dynamic
             and engaging web applications.
         </p>
         <div class="flex items-center justify-start gap-5">

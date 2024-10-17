@@ -10,12 +10,12 @@
     <div class="border border-gray-800 rounded-lg p-5 shadow cursor-pointer hover:bg-gray-900 transition">
       <img src="../../../assets/sert.png" alt="" srcset="">
     </div>
-    <div class="border border-gray-800 rounded-lg p-5 shadow cursor-pointer hover:bg-gray-900 transition">
+    <!-- <div class="border border-gray-800 rounded-lg p-5 shadow cursor-pointer hover:bg-gray-900 transition">
       <img src="../../../assets/sert.png" alt="" srcset="">
     </div>
     <div class="border border-gray-800 rounded-lg p-5 shadow cursor-pointer hover:bg-gray-900 transition">
       <img src="../../../assets/sert.png" alt="" srcset="">
-    </div>
+    </div> -->
   </div>
 </template>
 
